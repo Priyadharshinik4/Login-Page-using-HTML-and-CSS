@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-repeat:no-repeat;
+    background-size: 100%;
+}    
+.whole{
+    position: absolute;
+    top: 10rem;
+    left: 32rem;
+}
+.signin{
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #000000;
+    border: none;
+    height: 17rem;
+    width: 20rem;
+    padding: 20px; 
+}
+.signin1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    padding-top: 20px;
+}
+.name input{
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 19rem ;
+}
+.pass{
+    padding-top: 20px;
+}
+.pass input{
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 19rem ;
+}
+.check{
+    padding-top: 20px;   
+}
+.submit{
+    padding-top: 20px;
+    text-align: center;
+}    
+.submit button{
+    width: 17rem;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.submit button:hover{
+    font-size: 15px;
+    background-color: #ccc;
+}
+
+.signin2{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+}
+.signin2::before{
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #000;
+    left: 15px;
+    top: 25.5px;
+    position: absolute;
+}
+.signin2::after{
+    content: "";
+    
+    width: 100px;
+    height: 1px;
+    background: #000;
+    right: 15px;
+    top: 25.5px;
+    position: absolute;
+}
+.icons{
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.signup{
+    padding-top: 20px;
+    text-align: center;
+}
+
